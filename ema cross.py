@@ -18,8 +18,6 @@ logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
                     )
 
 direction  = 1 # 初始方向为向上（ema33 在 ema55 之上）
-id = 'F41346A89A474C2CB4EC865C85400F22'
-key = '99718AAF9BE641AAB1BA58C1BC0BC7170FECD008BC208616'
 
 exchange = ccxt.coinex(
     {
